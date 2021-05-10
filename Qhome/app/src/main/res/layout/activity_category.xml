@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity"
+    tools:context=".main.CategoryActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:background="@drawable/toolbar_shadow">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:padding="2dp"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center_vertical"
+                android:onClick="back"
+                android:src="@drawable/leftarrow_marron"/>
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="22sp"
+                android:textColor="@color/colorPrimary"
+                android:text="@string/category"/>
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_vertical|right"
+                android:layout_marginRight="10dp"
+                android:onClick="toFilter"
+                android:padding="2dp"
+                android:src="@drawable/ic_filter"/>
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="10dp"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/caption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimary"
+                android:visibility="visible"
+                android:text="@string/browse_stores"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:textSize="16sp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center_vertical"
+                android:padding="2dp"
+                android:visibility="gone"
+                android:id="@+id/search_bar">
+                <LinearLayout
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:layout_width="0px"
+                    android:layout_height="0px" />
+                <EditText
+                    android:id="@+id/edt_search"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:textColor="@color/colorPrimary"
+                    android:textColorHint="@color/lightPrimary"
+                    android:hint="@string/search"
+                    android:imeOptions="actionSearch"
+                    android:drawableLeft="@drawable/ic_search_marron"
+                    android:layout_gravity="center_horizontal"
+                    android:drawablePadding="8dp"
+                    android:singleLine="true"
+                    android:padding="5dp"
+                    android:background="@drawable/light_gray_round_fill"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_vertical|right">
+                <ImageView
+                    android:id="@+id/searchButton"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:padding="5dp"
+                    android:layout_marginRight="5dp"
+                    android:visibility="visible"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/ic_search_marron"
+                    android:onClick="search"
+                    tools:ignore="OnClick" />
+                <ImageView
+                    android:id="@+id/cancelButton"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:padding="8dp"
+                    android:layout_marginRight="5dp"
+                    android:visibility="gone"
+                    android:layout_gravity="center_vertical"
+                    android:onClick="cancelSearch"
+                    android:src="@drawable/cancelicon_marron"/>
+            </LinearLayout>
+        </FrameLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <com.myapp.qhome.classes.CustomGridView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/list"
+                    android:numColumns="2"/>
+                <FrameLayout
+                    android:id="@+id/others"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="getOtherStores"
+                    android:layout_margin="5dp">
+                    <com.makeramen.roundedimageview.RoundedImageView
+                        android:id="@+id/pictureBox"
+                        android:layout_width="match_parent"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/others1"
+                        android:layout_height="120dp"
+                        app:riv_corner_radius="8dp"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:background="@drawable/trans_round_black_fill"/>
+                    <TextView
+                        android:id="@+id/nameBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:textColor="#fff"
+                        android:layout_gravity="center"
+                        android:textSize="16sp"
+                        android:gravity="center"
+                        android:layout_margin="5dp"
+                        android:text="@string/others"
+                        android:textAllCaps="true"/>
+                </FrameLayout>
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</FrameLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

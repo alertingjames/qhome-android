@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="welcome">أهلا بك</string>
+    <string name="log_In">تسجيل الدخول</string>
+    <string name="login">تسجيل الدخول</string>
+
+    <string name="choose_language">اختر لغة</string>
+    <string name="english">الإنجليزية</string>
+    <string name="arabic">العربية</string>
+    <string name="settings">الإعدادات</string>
+    <string name="logout">تسجيل الخروج</string>
+    <string name="help">مساعدة</string>
+    <string name="favorites">المفضلة</string>
+    <string name="order_history">الطلبات السابقة</string>
+    <string name="signup_login">تسجيل الدخول \ انشاء حساب</string>
+    <string name="manage_account">إدارة الحساب</string>
+    <string name="notifications">الإشعارات</string>
+    <string name="notification">الإشعارات</string>
+    <string name="enable">يمكن</string>
+    <string name="search">&#8230;بحث</string>
+    <string name="signup">انشاء حساب</string>
+    <string name="producer">صاحب مشروع</string>
+    <string name="customer">زبون</string>
+    <string name="terms"><u>أنا أتفق مع سياسة الخصوصية شروط الاستخدام</u></string>
+    <string name="remember_choice">تذكر الاختيار</string>
+
+    <string name="name">الاسم</string>
+    <string name="email">البريد الإلكتروني</string>
+    <string name="password">كلمه السر</string>
+    <string name="phone_number">رقم الهاتف</string>
+    <string name="instagrame_username">اسم مستخدم Instagram</string>
+    <string name="address">عنوان</string>
+    <string name="location">موقعك</string>
+    <string name="contact">خيارات الاتصال</string>
+    <string name="area">منطقة</string>
+    <string name="street">شارع</string>
+    <string name="house">منزل</string>
+    <string name="continue_string">استمر</string>
+    <string name="agree_privacy_policy">لقد قرأت ووافقت</string>
+    <string name="terms_accept">موافق</string>
+    <string name="register">تسجيل</string>
+    <string name="register_store">تسجيل متجر</string>
+    <string name="desc">الوصف</string>
+    <string name="submit">قدم</string>
+    <string name="store_name">اسم المتجر باللغة الإنجليزية</string>
+    <string name="enter_store_name_ar">أدخل اسم المتجر باللغة العربية</string>
+    <string name="choose_category">اختر الفئة</string>
+    <string name="enter_store_description_ar">أدخل وصف المتجر باللغة العربية</string>
+    <string name="instagram">إينستاجرام</string>
+    <string name="forgot_password">هل نسيت كلمة المرور</string>
+    <string name="new_user">مستخدم جديد؟</string>
+    <string name="request_password">طلب</string>
+    <string name="forgot_password_message">رجاءا أدخل بريدك الإلكتروني. سنرسل رابط إعادة تعيين كلمة المرور إلى بريدك الإلكتروني.</string>
+
+    <string name="account_progress">تقدم الحساب</string>
+    <string name="account_progress_text">شكرا لكم! سيتم تمرير معلوماتك إلى كيو هوم لتتم معالجتها والتحقق منها. بمجرد أن تصبح كذلك ، ستتمكن من استخدام حسابك لنشر منتجاتك.</string>
+    <string name="phone_verification">التحقق من الهاتف</string>
+    <string name="cancel">إلغاء</string>
+    <string name="canceled">ملغى</string>
+    <string name="confirm">أكد</string>
+    <string name="server_issue">مشكلة في الخادم</string>
+    <string name="existing_user">لقد تم تسجيلك بالفعل الرجاء تسجيل الدخول</string>
+    <string name="existing_email">شخص ما يستخدم نفس البريد الإلكتروني. يرجى المحاولة مع واحد آخر.</string>
+    <string name="unregistered_user">أنت لم تسجل. يرجى الاشتراك</string>
+    <string name="incorrect_password">كلمة مرورك غير صحيحة</string>
+    <string name="verified">تم التحقق بنجاح</string>
+    <string name="verify_phone">يرجى التحقق من رقم هاتفك</string>
+    <string name="login_success">قمت بتسجيل الدخول بنجاح</string>
+    <string name="logged_out">تسجيل الخروج</string>
+    <string name="what_role">ما هو دورك؟</string>
+    <string name="enter_name">أدخل أسمك</string>
+    <string name="enter_email">أدخل بريدك الالكتروني</string>
+    <string name="enter_password">ادخل رقمك السري</string>
+    <string name="enter_phone">أدخل رقم هاتفك</string>
+    <string name="enter_instagram">أدخل اسم مستخدم الانستقرام الخاص بك</string>
+    <string name="enter_address">أدخل عنوانك</string>
+    <string name="enter_area">أدخل اسم منطقتك</string>
+    <string name="enter_street">أدخل اسم الشارع الخاص بك</string>
+    <string name="enter_house">أدخل عنوان منزلك</string>
+    <string name="select_role">يرجى اختيار دورك</string>
+    <string name="verify">تحقق</string>
+    <string name="back">الى الخلف</string>
+    <string name="hint">تلميح</string>
+    <string name="register_store_text">.ليس لديك أي متجر معتمد. يمكنك التسجيل متجرين كحد أقصى. يرجى التسجيل</string>
+    <string name="enter_store_name">.أدخل اسم المتجر</string>
+    <string name="enter_description">.أدخل الوصف</string>
+    <string name="load_logo">تحميل الشعار</string>
+    <string name="edit_logo">تعديل الشعار</string>
+    <string name="existing_store">لقد قمت بالفعل بتسجيل متجر يحمل نفس الاسم. حاول مرة أخرى باسم آخر</string>
+    <string name="advertise_here">!اعلن هنا</string>
+    <string name="category">الفئة</string>
+    <string name="advertise_with_us">أعلن معنا</string>
+    <string name="contact_us">اتصل بنا</string>
+    <string name="contact_us_for_help">اتصل بنا للمساعدة</string>
+    <string name="or">أو</string>
+    <string name="write_something">اكتب شيئا هنا</string>
+    <string name="send_us_message">أرسل لنا رسالة</string>
+    <string name="food">طعام</string>
+    <string name="drinks">مشروبات</string>
+    <string name="sweets">حلويات</string>
+    <string name="stationery">ادوات مكتبيه</string>
+    <string name="accessories">مستلزمات</string>
+    <string name="perfumes">العطور</string>
+    <string name="others">امور اخرى</string>
+    <string name="myprofile">حسابي</string>
+    <string name="coupons">كوبونات</string>
+    <string name="orders">الطلبات</string>
+    <string name="wishlist">المرغوبة</string>
+    <string name="upload_products">تحميل المنتجات الخاصة بي</string>
+    <string name="feedback">الملاحظات</string>
+    <string name="shipping_info">معلومات الشحن</string>
+    <string name="new_product">أضف منتج</string>
+    <string name="my_stores">متاجري</string>
+    <string name="browse_stores">تصفح جميع المتاجر</string>
+    <string name="load_pictures">تحميل صور المنتج</string>
+    <string name="product_name">اسم المنتج</string>
+    <string name="my_store">متجري</string>
+    <string name="edit">تصحيح</string>
+    <string name="no_store_result">لا يوجد متجر تم تحميله</string>
+    <string name="no_result">لا توجد بيانات تم تحميلها</string>
+    <string name="approved"><u>تمت الموافقة على هذا المتجر</u></string>
+    <string name="declined"><u>تم رفض هذا المتجر</u></string>
+    <string name="processing">هذا المتجر قيد المعالجة الآن</string>
+    <string name="warning">تحذير</string>
+    <string name="store_processing_text">عذرًا ، لم تتم الموافقة على هذا المتجر بعد. إنه قيد المعالجة. يرجى الانتظار</string>
+    <string name="store_declined_text">عذرًا ، لم يتم رفض هذا المتجر. يرجى تعديل أو محاولة مع واحد آخر</string>
+    <string name="products">منتجات</string>
+    <string name="ok">حسنا</string>
+    <string name="no">لا</string>
+    <string name="yes">نعم</string>
+    <string name="delstore_text">هل أنت متأكد أنك تريد حذف هذا المتجر؟</string>
+    <string name="register_product_info">تسجيل معلومات المنتج</string>
+    <string name="enter_product_name">أدخل اسم المنتج</string>
+    <string name="enter_product_description">أدخل وصف المنتج</string>
+    <string name="uploading">تحميل</string>
+    <string name="uploaded">تم التحميل</string>
+    <string name="more_detail">عرض المزيد</string>
+    <string name="reviews">تعليقات:</string>
+    <string name="ratings">تقييمات</string>
+    <string name="enter_product_name_ar">أدخل اسم المنتج باللغة العربية</string>
+    <string name="enter_product_description_ar">أدخل وصف المنتج باللغة العربية</string>
+    <string name="product_price">سعر المنتج (QR)</string>
+    <string name="enter_product_price">أدخل سعر المنتج</string>
+    <string name="qr">QR</string>
+    <string name="profile">الحساب</string>
+    <string name="rate">قيم</string>
+    <string name="store">متجر</string>
+    <string name="subject">الموضوع</string>
+    <string name="please_rate_out_of_5_stars">يرجى التقييم من أصل 5 نجوم</string>
+    <string name="write_subject">يرجى كتابة الموضوع</string>
+    <string name="write_feedback">يرجى كتابة ملاحظاتك</string>
+    <string name="feedback_submited">مراجعتك قد تم تسليمها</string>
+    <string name="place_feedback">ضع ملاحظاتك في هذا المتجر</string>
+    <string name="update_feedback">تحديث ملاحظاتك في هذا المتجر</string>
+    <string name="phone_call">اتصل بنا</string>
+    <string name="whatsapp">ال WhatsApp</string>
+    <string name="mail_us">ارسل رسالة</string>
+    <string name="send_notification">إرسال الإشعارات</string>
+    <string name="add_to_cart">أضف إلى السلة</string>
+    <string name="select_2_items">يمكنك اختيار عنصرين كحد أقصى</string>
+    <string name="cart">السلة</string>
+    <string name="checkout">الدفع</string>
+    <string name="total">المجموع:</string>
+    <string name="total_price">السعر الكلي:</string>
+    <string name="order">طلب</string>
+    <string name="orderid">رقم التعريف الخاص بالطلب:</string>
+    <string name="date_order">التاريخ:</string>
+    <string name="subtotal">المجموع الفرعي:</string>
+    <string name="shipping">الشحن:</string>
+    <string name="use_coupon">استخدام كوبون</string>
+    <string name="confirm_order">تأكيد الطلب</string>
+    <string name="payment_method">طريقة الدفع</string>
+    <string name="cash">نقدا</string>
+    <string name="add_shipping_address">إضافة عنوان الشحن</string>
+    <string name="x">X</string>
+    <string name="items">الاغراض</string>
+    <string name="shipping_address">عنوان الشحن</string>
+    <string name="add_phone">إضافة رقم الهاتف</string>
+    <string name="no_saved_data">لا توجد بيانات محفوظة</string>
+    <string name="save">حفظ</string>
+    <string name="address_added">تمت إضافة العنوان</string>
+    <string name="phone_added">تمت إضافة رقم الهاتف</string>
+    <string name="del_text">هل أنت متأكد أنك تريد حذف هذا؟</string>
+    <string name="bonus">علاوة</string>
+    <string name="dontuse_bonus">لا تستخدم أي رمز لكوبون</string>
+    <string name="no_coupon">لم يتم توفير رمز كوبون</string>
+    <string name="off">إيقاف</string>
+    <string name="discount">خصم</string>
+    <string name="discount_coupon">كوبون الخصم</string>
+    <string name="expires_on">تنتهي صلاحيته في</string>
+    <string name="cart_empty">عربة التسوق فارغة</string>
+    <string name="wishlist_empty">قائمة رغباتك فارغة</string>
+    <string name="start_shopping">ابدأ التسوق</string>
+    <string name="order_submited">تم إرسال طلبك بنجاح</string>
+    <string name="order_complete">الطلب جاهز</string>
+    <string name="thanks_order">!شكرا لك! لقد تم تسجيل طلبك</string>
+    <string name="order_id">رقم التعريف الخاص بالطلب:</string>
+    <string name="order_date">تاريخ الطلب:</string>
+    <string name="order_status">حالة الطلب:</string>
+    <string name="shortly_contact">.سيتم الاتصال بك قريبا</string>
+    <string name="question_contact_us">إذا كان لديك أي أسئلة، يرجى الاتصال بنا</string>
+    <string name="home">الصفحة الرئيسية</string>
+    <string name="received_orders">الطلبات المستلمة</string>
+    <string name="ordered">تم الطلب</string>
+    <string name="my_orders">طلباتي</string>
+    <string name="shop_now">تسوق الآن</string>
+    <string name="no_received_order">ليس لديك أي طلبات مستلمة</string>
+    <string name="no_order_records">ليس لديك سجلات طلبات</string>
+    <string name="confirmed">تم التأكيد</string>
+    <string name="prepared">تم الاعداد</string>
+    <string name="ready">جاهز</string>
+    <string name="delivered">تم التوصيل</string>
+    <string name="all">الكل</string>
+    <string name="success">نجاح</string>
+    <string name="order_placed">تم الطلب</string>
+    <string name="placed">وضع</string>
+    <string name="reorder">طلب من جديد</string>
+    <string name="sure_cancel">هل أنت متأكد أنك تريد الإلغاء؟</string>
+    <string name="track_order">أتبع طلبك</string>
+    <string name="change_name">غير اسمك</string>
+    <string name="change_instagram">تغيير اسم مستخدم الانستقرام</string>
+    <string name="new_orders">طلبات جديدة</string>
+    <string name="profile_updated">تحديث الملف الشخصي</string>
+    <string name="prepare">إعداد</string>
+    <string name="delivery">توصيل</string>
+    <string name="order_detail">تفاصيل الطلب</string>
+    <string name="completed">مكتمل</string>
+    <string name="feedback_app">ضع ملاحظاتك في هذا التطبيق</string>
+    <string name="update_app_feedback">حدث ملاحظاتك في هذا التطبيق</string>
+    <string name="language">اللغة</string>
+    <string name="unused">غير مستعمل</string>
+    <string name="used">مستعمل</string>
+    <string name="expired">منتهي الصلاحية</string>
+    <string name="filter">تصفية</string>
+    <string name="price_range">نطاق السعر</string>
+    <string name="sortby">ترتيب حسب</string>
+    <string name="price">السعر</string>
+    <string name="apply">تطبيق</string>
+    <string name="dont_apply">لا تطبق</string>
+    <string name="filter_applied">تطبيق التصفية</string>
+    <string name="filter_canceled">تم الغاء التصفية</string>
+    <string name="delete_store_text">هل أنت متأكد أنك تريد حذف هذا المتجر؟</string>
+    <string name="check_email">من فضلك تفقد بريدك الالكتروني.</string>
+    <string name="summary">ملخص</string>
+    <string name="enter_store_name_en">أدخل اسم المتجر باللغة الإنجليزية</string>
+    <string name="enter_store_description_en">أدخل وصف المتجر باللغة الإنجليزية</string>
+    <string name="enter_product_name_en">أدخل اسم المنتج باللغة الإنجليزية</string>
+    <string name="enter_product_description_en">أدخل وصف المنتج باللغة الإنجليزية</string>
+    <string name="customer_canceled_order">لقد ألغى العميل هذا الطلب بالفعل.</string>
+    <string name="admin">مدير</string>
+    <string name="message_sent">تم الارسال</string>
+    <string name="attached_file">مرفق ملف</string>
+    <string name="image_downloaded_at">Image downloaded at</string>
+    <string name="luck_draw">قرعة الحظ</string>
+    <string name="luck_draw_text">يمكنك النقر فوق زر السحب المحظوظ هذا مرة واحدة يوميًا. من فضلك استمتع!</string>
+    <string name="info_submited">تم إرسال معلوماتك لهذا اليوم. يرجى الانتظار للفوز.</string>
+    <string name="info_exists">تم بالفعل إرسال معلوماتك لهذا اليوم. يرجى الانتظار للفوز.</string>
+    <string name="sorry">آسف،</string>
+    <string name="winner_exists">وقد فاز اليوم. ارجوك حاول مرة أخرى غدا.</string>
+    <string name="you_won">لقد فزت اليوم!</string>
+    <string name="account_deleted">نأسف ، لقد قمنا بحذف حسابك بسبب مشكلاته.
+يرجى إنشاء حساب آخر إذا كنت تريد.
+Qhome المسؤول</string>
+
+    <string name="use_company">استخدام شركة التوصيل</string>
+    <string name="iwanttousecompany">أريد أن استخدام لشركة التوصيل NAQL</string>
+    <string name="deliveryprice">سعر تسليم</string>
+    <string name="doha30">30 في الدوحة</string>
+    <string name="doha50">50 خارج الدوحة</string>
+    <string name="naql">NAQL الادارية</string>
+    <string name="invalid_phone">رقم هاتفك غير صالح.</string>
+    <string name="selectprice">اختر السعر</string>
+
+
+
+
+
+
+
+
+    <string name="terms_text">
+        <b> البنود &amp; amp؛ الظروف </b>\n\n
+        عن طريق تنزيل التطبيق أو استخدامه ، سيتم تطبيق هذه الشروط تلقائيًا عليك - يجب عليك التأكد من قراءتها بعناية قبل استخدام التطبيق.\n
+        لا يُسمح لك بنسخ أو تعديل التطبيق أو أي جزء من التطبيق أو علاماتنا التجارية بأي شكل من الأشكال. لا يُسمح لك بمحاولة استخراج الشفرة المصدرية للتطبيق ، ويجب ألا تحاول أيضًا ترجمة التطبيق إلى لغات أخرى ، أو إنشاء إصدارات مشتقة.\n
+        لا يزال التطبيق نفسه ، وجميع العلامات التجارية وحقوق الطبع والنشر وحقوق قاعدة البيانات وحقوق الملكية الفكرية الأخرى المرتبطة به ، مملوكة لـ Qhome.\n
+        تلتزم Qhome بضمان أن يكون التطبيق مفيدًا وفعالًا قدر الإمكان.\n
+        لهذا السبب ، نحتفظ بالحق في إجراء تغييرات على التطبيق أو فرض رسوم على خدماته ، في أي وقت ولأي سبب.\n
+        لن نفرض عليك رسومًا مقابل التطبيق أو خدماته دون أن نوضح لك تمامًا ما تدفعه مقابل.\n
+        يقوم تطبيق Qhome بتخزين ومعالجة البيانات الشخصية التي قدمتها إلينا ، من أجل تقديم الخدمة الخاصة بي.\n
+        تقع على عاتقك مسؤولية الحفاظ على هاتفك والوصول إلى التطبيق آمنًا. لذلك ، نوصيك بعدم كسر أو تعطيل هاتفك ، وهي عملية إزالة قيود البرنامج والقيود التي يفرضها نظام التشغيل الرسمي لجهازك.\n
+        قد يجعل هاتفك عرضة لبرامج ضارة \ / فيروسات \ / برامج ضارة ، ويعرض للخطر ميزات أمان هاتفك وقد يعني أن تطبيق Qhome لن يعمل بشكل صحيح أو على الإطلاق.\n
+        يجب أن تدرك أن هناك أشياء معينة لن يتحملها Qhome. تتطلب بعض وظائف التطبيق أن يكون لدى التطبيق اتصال نشط بالإنترنت. يمكن أن يكون الاتصال هو Wi-Fi ، أو يتم توفيره من قِبل مزود شبكة الهاتف المحمول الخاص بك ، لكن Qhome لا يمكن أن يتحمل مسؤولية عدم تشغيل التطبيق بكامل وظائفه إذا لم يكن لديك وصول إلى Wi-Fi ، ولم يكن لديك أي من تم ترك بدل البيانات.\n
+        إذا كنت تستخدم التطبيق خارج منطقة مزودة بخدمة Wi-Fi ، فيجب أن تتذكر أن شروط الاتفاقية الخاصة بك مع مزود شبكة المحمول الخاص بك ستظل سارية. نتيجةً لذلك ، قد تتم محاسبتك من قِبل موفر خدمة الجوّال الخاص بك مقابل تكلفة البيانات طوال مدة الاتصال أثناء الوصول إلى التطبيق ، أو رسوم الطرف الثالث الأخرى.\n
+        عند استخدام التطبيق ، فأنت تتحمل مسؤولية أي رسوم من هذا القبيل ، بما في ذلك رسوم بيانات التجوال إذا كنت تستخدم التطبيق خارج إقليمك الأصلي (أي المنطقة أو البلد) دون إيقاف تشغيل تجوال البيانات. إذا لم تكن دافع الفاتورة للجهاز الذي تستخدمه التطبيق ، فالرجاء العلم أننا نفترض أنك قد حصلت على إذن من دافع الفاتورة لاستخدام التطبيق.\n
+        على نفس المنوال ، لا يمكن أن يتحمل Qhome دائمًا المسؤولية عن الطريقة التي تستخدم بها التطبيق ، أي تحتاج إلى التأكد من بقاء جهازك مشحونًا - إذا نفدت البطارية ولا يمكنك تشغيله للاستفادة من الخدمة ، لا يمكن لـ Qhome تحمل المسؤولية.\n
+        فيما يتعلق بمسؤولية Qhome عن استخدامك للتطبيق ، عند استخدامك للتطبيق ، من المهم أن نأخذ في الاعتبار أنه على الرغم من أننا نسعى لضمان أن يتم تحديثه وتصحيحه في جميع الأوقات ، فإننا نعتمد على أطراف ثالثة لتوفير المعلومات لنا حتى نتمكن من إتاحتها لك. لا تتحمل Qhome أي مسؤولية عن أي خسارة ، مباشرة أو غير مباشرة ، تواجهها كنتيجة للاعتماد كليًا على هذه الوظيفة للتطبيق.\n
+   في مرحلة ما ، قد نرغب في تحديث التطبيق. التطبيق متاح حاليًا على Android &amp; amp؛ iOS - قد تتغير متطلبات كلا النظامين (وأي أنظمة إضافية نقرر تمديد توفر التطبيق إليها) ، وستحتاج إلى تنزيل التحديثات إذا كنت تريد الاستمرار في استخدام التطبيق. لا يعد Qhome بأنه سيقوم دائمًا بتحديث التطبيق بحيث يكون ملائمًا لك و / أو يعمل مع Android &amp;؛ إصدار iOS الذي قمت بتثبيته على جهازك.\n
+        ومع ذلك ، فإنك توافق دائمًا على قبول تحديثات التطبيق عندما يتم تقديمها لك ، وقد نرغب أيضًا في إيقاف تقديم التطبيق ، وقد نقوم بإنهاء استخدامه في أي وقت دون إشعارك بالإنهاء. ما لم نخبرك بخلاف ذلك ، عند أي إنهاء ، (أ) ستنتهي الحقوق والتراخيص الممنوحة لك بموجب هذه الشروط ؛ (ب) يجب أن تتوقف عن استخدام التطبيق ، وأن تحذفه (إذا لزم الأمر) من جهازك.\n
+        التغييرات في هذه الشروط والأحكام\n
+        يمكنني تحديث البنود والشروط من وقت لآخر. وبالتالي ، يُنصح بمراجعة هذه الصفحة بشكل دوري لأية تغييرات. سأعلمك بأي تغييرات من خلال نشر الشروط والأحكام الجديدة على هذه الصفحة. تسري هذه التغييرات فور نشرها على هذه الصفحة.\n
+        Qhome ليست مسؤولة عن أي إجراءات قد تأتي من أي عميل أو منتج ، من خلال الدخول والاستمرار في استخدام هذا التطبيق ، فإنك توافق فورًا على سياسة الخصوصية وشروط وأحكام الاستخدام.\n
+        اتصل بنا
+    
+    إذا كانت لديك أي أسئلة أو اقتراحات حول البنود والشروط الخاصة بي ، فلا تتردد في الاتصال بي على qhome974@gmail.com\n\n\n\n
+
+        <b> سياسة الخصوصية </b>\n\n
+        صمم Qhome تطبيق Qhome كتطبيق مدعوم بالإعلانات.\n يتم توفير هذه الخدمة من قوم دون أي تكلفة وهي مخصصة للاستخدام كما هي.\n
+        تُستخدم هذه الصفحة لإبلاغ الزوار بشأن سياساتي من خلال جمع واستخدام والكشف عن المعلومات الشخصية إذا قرر أي شخص استخدام الخدمة الخاصة بي.\n
+        إذا اخترت استخدام "خدمتي" ، فأنت توافق على جمع واستخدام المعلومات المتعلقة بهذه السياسة.\n تُستخدم المعلومات الشخصية التي أجمعها في تقديم الخدمة وتحسينها. لن أستخدم أو أشارك معلوماتك مع أي شخص باستثناء ما هو موضح في سياسة الخصوصية هذه.\n
+        المصطلحات المستخدمة في سياسة الخصوصية هذه لها نفس المعاني الواردة في البنود والشروط الخاصة بنا ، والتي يمكن الوصول إليها في Qhome ما لم يتم تحديد خلاف ذلك في سياسة الخصوصية هذه.\n
+        جمع المعلومات واستخدامها\n\n
+        للحصول على تجربة أفضل ، أثناء استخدام خدمتنا ، قد أطلب منك تزويدنا ببعض معلومات التعريف الشخصية ، بما في ذلك على سبيل المثال لا الحصر ، رقم الهاتف والاسم وعنوان البريد الإلكتروني والعنوان ومعلومات أخرى. سيتم الاحتفاظ بالمعلومات التي أطلبها على جهازك ولن يتم جمعها بواسطتي بأي شكل من الأشكال.
+        يستخدم التطبيق خدمات الجهات الخارجية التي قد تجمع المعلومات المستخدمة لتحديد هويتك.\n
+        رابط إلى سياسة الخصوصية لموفري خدمات الجهات الخارجية الذين يستخدمهم التطبيق\n
+        سجل البيانات\n
+        أريد أن أبلغكم أنه عند استخدام "الخدمة" ، في حالة حدوث خطأ في التطبيق ، أقوم بجمع البيانات والمعلومات (من خلال منتجات الجهات الخارجية) على هاتفك باسم "بيانات السجل".\n قد تتضمن بيانات السجل هذه معلومات مثل جهازك عنوان بروتوكول الإنترنت (\ "IP \") واسم الجهاز وإصدار نظام التشغيل وتكوين التطبيق عند استخدام "الخدمة" ووقت وتاريخ استخدامك للخدمة وإحصائيات أخرى.\n
+        الكوكيز \ ن
+        ملفات تعريف الارتباط هي ملفات تحتوي على كمية صغيرة من البيانات التي تستخدم عادة كمعرفات فريدة مجهولة.\n يتم إرسالها إلى متصفحك من مواقع الويب التي تزورها وتخزينها على الذاكرة الداخلية لجهازك.\n
+        لا تستخدم هذه الخدمة \ "ملفات تعريف الارتباط \" هذه بشكل صريح.\n ومع ذلك ، قد يستخدم التطبيق رموز الطرف الثالث والمكتبات التي تستخدم \ "ملفات تعريف الارتباط \" لجمع المعلومات وتحسين خدماتها. لديك خيار إما قبول أو رفض ملفات تعريف الارتباط هذه ومعرفة وقت إرسال ملف تعريف الارتباط إلى جهازك.\n إذا اخترت رفض ملفات تعريف الارتباط الخاصة بنا ، فقد لا تتمكن من استخدام بعض أجزاء هذه الخدمة.\n
+        مزودي الخدمة\n
+        قد أستخدم شركات وأفراد تابعين لجهات خارجية للأسباب التالية:\n
+    
+    </string>
+
+</resources>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

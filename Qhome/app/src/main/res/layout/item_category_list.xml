@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/pictureBox"
+            android:layout_width="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/food"
+            android:layout_height="120dp"
+            app:riv_corner_radius="8dp"/>
+        <View
+            android:id="@+id/tintView"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:background="@drawable/trans_round_cyan_fill"/>
+        <TextView
+            android:id="@+id/nameBox"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textColor="#fff"
+            android:layout_gravity="center"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:text="Food"
+            android:textAllCaps="true"/>
+    </FrameLayout>
+</FrameLayout>

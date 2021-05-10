@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/login"
+            android:icon="@drawable/ic_login"
+            android:title="@string/signup_login"/>
+        <item
+            android:id="@+id/favorite"
+            android:icon="@drawable/favorite"
+            android:title="@string/favorites"/>
+        <item
+            android:id="@+id/orders"
+            android:icon="@drawable/ic_order_history"
+            android:title="@string/orders"/>
+        <item
+            android:id="@+id/notifications"
+            android:icon="@drawable/ic_notification"
+            android:title="@string/notifications"/>
+        <item
+            android:id="@+id/manage_account"
+            android:icon="@drawable/account"
+            android:title="@string/manage_account"/>
+        <item
+            android:id="@+id/setting"
+            android:icon="@drawable/ic_setting"
+            android:title="@string/settings" />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_logout"
+            android:title="@string/logout"/>
+        <item
+            android:id="@+id/help"
+            android:icon="@drawable/help"
+            android:title="@string/help" />
+        <item
+            android:id="@+id/company"
+            android:icon="@drawable/company"
+            android:visible="true"
+            android:title="@string/naql" />
+    </group>
+
+</menu>

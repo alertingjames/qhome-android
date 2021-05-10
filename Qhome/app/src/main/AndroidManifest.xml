@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.myapp.qhome">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="in.wptrafficanalyzer.locationgooglemapviewsv2.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission
+        android:name="android.permission.CAPTURE_AUDIO_OUTPUT"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.RECORD_VIDEO" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" /> <!-- <uses-permission android:name="android.permission.SEND_SMS" /> -->
+    <uses-permission android:name="android.permission.READ_CONTACTS" /> <!-- <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/> -->
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <permission
+        android:name="android.permission.CALL_PRIVILEGED"
+        android:protectionLevel="signature|privileged" />
+
+    <uses-permission android:name="android.hardware.camera.autofocus" />
+
+    <application
+        android:name=".QhomeApp"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:allowBackup,icon,theme,label">
+        <activity android:name=".main.CompanyOrderDetailActivity"></activity>
+        <activity android:name=".main.CAdminActivity" />
+        <activity android:name=".main.CompanyActivity" />
+        <activity android:name=".main.LuckyDrawActivity" />
+        <activity android:name=".main.ViewImageActivity" />
+        <activity android:name=".main.HelpActivity" />
+        <activity android:name=".main.FilterActivity" />
+        <activity android:name=".main.NotificationsActivity" />
+        <activity android:name=".main.CouponListActivity" />
+        <activity android:name=".main.SettingsActivity" />
+        <activity android:name=".main.StoreListActivity" />
+        <activity android:name=".main.FeedbackActivity" />
+        <activity android:name=".main.FavoritesActivity" />
+        <activity android:name=".main.ReceivedOrderDetailActivity" />
+        <activity android:name=".main.MyProfileActivity" />
+        <activity android:name=".main.ReceivedOrdersActivity" />
+        <activity android:name=".main.OrderDetailActivity" />
+        <activity android:name=".main.OrdersActivity" />
+        <activity android:name=".main.OrderPlacedActivity" />
+        <activity android:name=".main.ShippingAddressActivity" />
+        <activity android:name=".main.CheckoutItemsActivity" />
+        <activity android:name=".main.WishlistActivity" />
+        <activity android:name=".main.PDetailActivity" />
+        <activity android:name=".main.CartActivity" />
+        <activity android:name=".main.PictureViewActivity" />
+        <activity android:name=".main.StoreDetailActivity" />
+        <activity android:name=".main.ProductDetailActivity" />
+        <activity android:name=".main.MyProductDetailActivity" />
+        <activity android:name=".main.CheckoutActivity" />
+        <activity android:name=".main.MyStoreDetailActivity" />
+        <activity android:name=".main.MyStoreListActivity" />
+        <activity android:name=".main.UploadProductActivity" />
+        <activity android:name=".main.ManageAccountActivity" />
+        <activity android:name=".main.CategoryActivity" />
+        <activity android:name=".main.ContactUsActivity" />
+        <activity android:name=".main.PhoneVerifyActivity" />
+        <activity android:name=".main.ForgotPasswordActivity" />
+        <activity android:name=".main.LoginActivity" />
+        <activity android:name=".main.RegisterStoreActivity" />
+        <activity android:name=".main.TermsActivity" />
+        <activity android:name=".main.SignupActivity" />
+        <activity android:name=".main.HomeActivity" />
+        <activity android:name=".main.ChooseLangActivity" />
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+
+        <meta-data
+            android:name="com.facebook.accountkit.ApplicationName"
+            android:value="@string/app_name" />
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/FACEBOOK_APP_ID" />
+        <meta-data
+            android:name="com.facebook.accountkit.ClientToken"
+            android:value="@string/ACCOUNT_KIT_CLIENT_TOKEN" />
+        <meta-data
+            android:name="com.facebook.accountkit.FacebookAppEventsEnabled"
+            android:value="false" />
+
+        <activity
+            android:name="com.facebook.accountkit.ui.AccountKitActivity"
+            android:theme="@style/Theme.AccountKit"
+            tools:replace="android:theme" />
+        <activity android:name="com.facebook.accountkit.ui.AccountKitEmailRedirectActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="@string/AK_LOGIN_PROTOCOL_SCHEME" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".main.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".base.BaseActivity" />
+
+        <service
+            android:name=".fcm.FcmMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <!--
+ Set custom default icon. This is used when no icon is set for incoming notification messages.
+     See README(https://goo.gl/l4GJaQ) for more.
+        -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@mipmap/appicon" />
+        <!--
+ Set color used with incoming notification messages. This is used when no color is set for the incoming
+             notification message. See README(https://goo.gl/6BKBk7) for more.
+        -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorAccent" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_channel_id"
+            android:value="@string/notification_channel_id" />
+    </application>
+
+</manifest>
